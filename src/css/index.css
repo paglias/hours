@@ -1,0 +1,56 @@
+/* TODO use sass version, npm from github not npm registry */
+@import '/node_modules/materialize-css/bin/materialize.css';
+
+/* STYLES OVERRIDED BY CHROME IN APP */
+html, body {
+  overflow: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.light-text {
+  font-weight: 200;
+}
+
+/*blue-grey 607d8b*/
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #607d8b;
+  box-shadow: 0 1px 0 0 #607d8b;
+}
+
+.header {
+  margin-bottom: 0px;
+}
+
+.header-logo {
+  margin: 0px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.header-form-wrapper {
+  margin-bottom: 0px
+}
+
+.trackers-list {
+  background-color: #eceff1;
+}
+
+.tracker-item-wrapper {
+  border-bottom: 1px solid #e0e0e0; /*same color as .divider*/
+}
+
+@media screen and (min-width: 601px) {
+  .tracker-item-buttons {
+    padding-top: 17px !important; /*TODO BAAAD*/
+    text-align: right;
+  }
+
+  .tracker-item {
+    margin-bottom: 10px
+  }
+
+  .header-logo {
+    margin-bottom: 10px;
+  }
+}
+
