@@ -44,12 +44,12 @@ gulp.task('build:js', function(){
     .bundle()
     .pipe(source('index.js'))
     .pipe(buffer())
-    //.pipe(sourcemaps.init({loadMaps: true}))
-    //.pipe(uglify())
+    .pipe(sourcemaps.init({loadMaps: true}))
+    .pipe(uglify())
     .on('error', function(err){
       console.log('Browserify error: ' + err.message); 
     })
-    //.pipe(sourcemaps.write('./'))
+    .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./build/js/'));
 });
 

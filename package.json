@@ -25,7 +25,7 @@
     "uuid": "^2.0.1",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
-    "vue": "git://github.com/yyx990803/vue#0.12.1-csp",
+    "vue": "git://github.com/yyx990803/vue#0.12.1-csp.1",
     "watchify": "^3.2.2"
   }
 }
