@@ -1,7 +1,7 @@
 {
   "name": "Hours | Time Tracker",
   "description": "A minimalist time tracker that works offline.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Matteo Pagliazzi <matteopagliazzi@gmail.com>",
   "manifest_version": 2,
   "offline_enabled": true,
