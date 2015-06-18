@@ -1,6 +1,6 @@
 {
   "name": "hours",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A minimalist time tracker that works offline.",
   "author": "Matteo Pagliazzi <matteopagliazzi@gmail.com>",
   "license": "GPLv3",
