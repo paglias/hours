@@ -45,7 +45,7 @@ gulp.task('build:js', function(){
     .pipe(source('index.js'))
     .pipe(buffer())
     .pipe(sourcemaps.init({loadMaps: true}))
-    .pipe(uglify())
+    //.pipe(uglify())
     .on('error', function(err){
       console.log('Browserify error: ' + err.message); 
     })
